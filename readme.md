@@ -1,4 +1,5 @@
-# Foundation for Apps Template
+https://codeship.com/projects/85110/
+# Xangular Apps Framework
 
 This is the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass. It provides you with a basic template to get started with Foundation for Apps and Angular.
 
@@ -19,7 +20,7 @@ You'll need the following software installed to get started.
 Clone this repository, where `app` is the name of your app.
 
 ```bash
-git clone https://github.com/zurb/foundation-apps-template.git app
+git clone https://github.com/sethbergman/xangular.git app
 ```
 
 Change into the directory.
@@ -47,4 +48,10 @@ To run the compiling process once, without watching any files, use the `build` c
 
 ```bash
 npm start build
+```
+
+To run the compiling process once using Gulp, use the `gulp` command.
+
+```bash
+gulp
 ```
