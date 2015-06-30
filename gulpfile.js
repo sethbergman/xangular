@@ -1,6 +1,6 @@
-// FOUNDATION FOR APPS TEMPLATE GULPFILE
+// Xangular Apps Template Gulpfile
 // -------------------------------------
-// This file processes all of the assets in the "client" folder, combines them with the Foundation for Apps assets, and outputs the finished files in the "build" folder as a finished app.
+// This file processes all of the assets in the "client" folder, combines them with the Xangular Apps assets, and outputs the finished files in the "build" folder as a finished app.
 
 // 1. LIBRARIES
 // - - - - - - - - - - - - - - -
@@ -29,7 +29,7 @@ var paths = {
     'client/assets/scss',
     'bower_components/foundation-apps/scss'
   ],
-  // These files include Foundation for Apps and its dependencies
+  // These files include Xangular Apps and its dependencies
   foundationJS: [
     'bower_components/fastclick/lib/fastclick.js',
     'bower_components/viewport-units-buggyfill/viewport-units-buggyfill.js',
@@ -76,7 +76,7 @@ gulp.task('copy:templates', function() {
   ;
 });
 
-// Compiles the Foundation for Apps directive partials into a single JavaScript file
+// Compiles the Xangular Apps directive partials into a single JavaScript file
 gulp.task('copy:foundation', function(cb) {
   gulp.src('bower_components/foundation-apps/js/angular/components/**/*.html')
     .pipe($.ngHtml2js({
@@ -112,7 +112,7 @@ gulp.task('sass', function () {
   ;
 });
 
-// Compiles and copies the Foundation for Apps JavaScript, as well as your app's custom JS
+// Compiles and copies the Xangular Apps JavaScript, as well as your app's custom JS
 gulp.task('uglify', ['uglify:foundation', 'uglify:app'])
 
 gulp.task('uglify:foundation', function(cb) {
@@ -153,6 +153,7 @@ gulp.task('server', ['build'], function() {
     }))
   ;
 });
+
 
 // Builds your entire app once, without starting a server
 gulp.task('build', function(cb) {
