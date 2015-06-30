@@ -1,4 +1,3 @@
-https://codeship.com/projects/85110/
 # Xangular Apps Framework
 
 This is the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass. It provides you with a basic template to get started with Foundation for Apps and Angular.
