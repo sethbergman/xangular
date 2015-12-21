@@ -1,5 +1,3 @@
-[ ![Codeship Status for sethbergman/xangular](https://codeship.com/projects/5495f7a0-f24c-0132-3508-12650554ab55/status?branch=master)](https://codeship.com/projects/85110)
-
 # Xangular Apps Framework
 
 This is the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass. It provides you with a basic template to get started with Foundation for Apps and Angular.
