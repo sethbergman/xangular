@@ -2,7 +2,9 @@
   "name": "xangular-apps-framework",
   "version": "1.1.0",
   "scripts": {
-    "start": "npm start"
+    "start": "npm start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "front-router": "^1.0.0",
@@ -40,7 +42,8 @@
     "rimraf": "^2.4.0",
     "run-sequence": "^1.1.1",
     "gulp-util": "^3.0.5",
-    "yargs": "^3.11.0"
+    "yargs": "^3.11.0",
+    "snyk": "^1.41.1"
   },
   "repository": {
     "type": "git",
@@ -57,5 +60,6 @@
   "bugs": {
     "url": "https://github.com/sethbergman/xangular/issues"
   },
-  "homepage": "https://github.com/sethbergman/xangular#readme"
+  "homepage": "https://github.com/sethbergman/xangular#readme",
+  "snyk": true
 }
