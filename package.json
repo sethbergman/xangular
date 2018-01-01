@@ -28,7 +28,7 @@
     "front-router": "^1.0.0",
     "angular": "^1.4.1",
     "gulp-autoprefixer": "^1.0.1",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.0",
     "gulp-if": "^1.2.5",
     "gulp-concat": "^2.5.2",
     "gulp-load-plugins": "^0.8.1",
